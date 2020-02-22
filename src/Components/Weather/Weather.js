@@ -4,7 +4,7 @@ class Weather extends Component {
     render() {
         return (
             <div>
-             Weather Component   
+             {this.props.temperature} 
             </div>
         );
     }
